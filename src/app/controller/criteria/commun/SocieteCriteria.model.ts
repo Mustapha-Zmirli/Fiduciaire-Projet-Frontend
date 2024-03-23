@@ -1,0 +1,13 @@
+import {BaseCriteria} from 'src/app/zynerator/criteria/BaseCriteria.model';
+
+export class SocieteCriteria  extends BaseCriteria  {
+
+    public id: number;
+    public code: string;
+    public codeLike: string;
+    public ice: string;
+    public iceLike: string;
+    public rc: string;
+    public rcLike: string;
+
+}

@@ -1,0 +1,179 @@
+{
+"from-to": "Elementos de {first} a {last} (total {totalRecords})",
+    "new": "Nuevo",
+    "search": "Buscar",
+    "export": "Exportar",
+    "import": "Importar",
+    "validate": "Validar",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "next": "Siguiente",
+    "yes": "Sí",
+    "no": "No",
+    "actions": "Acciones",
+    "confirm": "Confirmar",
+    "creation": "Creación",
+    "list": "Lista",
+    "nom": "Nombre",
+    "Données personnelles" : "Datos personales",
+    "Username" : "Nombre de usuario",
+    "Télephone" : "Teléfono",
+    "Nouveau Mot de passe" : "Nueva contraseña",
+    "Confirmer votre Mot de passe" : "Confirmar contraseña",
+    "Mot de passe" : "Contraseña",
+    "prenom":"Nombre de Pila",
+    "Changer": "Cambiar",
+	
+	"actionPermission": {
+    "reference": "Referencia",
+    "libelle": "Etiqueta",
+    "actionPermission": "Permiso de acción",
+    "tabPan": "Permiso de acción",
+    "header": "Lista de permisos de acción",
+    "deleteActionPermissionConfirmationMessage": "¿Estás seguro de que quieres eliminar el permiso de acción",
+    "deleteActionPermissionsConfirmationMessage": "¿Estás seguro de que quieres eliminar los elementos seleccionados?"
+},
+"modelPermissionUser": {
+    "actionPermission": "Permiso de acción",
+    "actionPermissionPlaceHolder": "Seleccionar un permiso de acción",
+    "actionPermissionPlaceHolderFilter": "Buscar por permiso de acción",
+    "modelPermission": "Permiso de modelo",
+    "modelPermissionPlaceHolder": "Seleccionar un permiso de modelo",
+    "modelPermissionPlaceHolderFilter": "Buscar por permiso de modelo",
+    "value": "Valor",
+    "user": "Usuario",
+    "userPlaceHolder": "Seleccionar un usuario",
+    "userPlaceHolderFilter": "Buscar por usuario",
+    "subAttribute": "Subatributo",
+    "modelPermissionUser": "Permiso de modelo de usuario",
+    "tabPan": "Permiso de modelo de usuario",
+    "header": "Lista de permisos de modelo de usuario",
+    "deleteModelPermissionUserConfirmationMessage": "¿Estás seguro de que quieres eliminar el permiso de modelo de usuario",
+    "deleteModelPermissionUsersConfirmationMessage": "¿Estás seguro de que quieres eliminar los elementos seleccionados?"
+},
+"role": {
+    "authority": "Autoridad",
+    "role": "Rol",
+    "tabPan": "Rol",
+    "header": "Lista de roles",
+    "deleteRoleConfirmationMessage": "¿Estás seguro de que quieres eliminar el rol",
+    "deleteRolesConfirmationMessage": "¿Estás seguro de que quieres eliminar los elementos seleccionados?"
+},
+"roleUser": {
+    "role": "Rol",
+    "rolePlaceHolder": "Seleccionar un rol",
+    "rolePlaceHolderFilter": "Buscar por rol",
+    "user": "Usuario",
+    "userPlaceHolder": "Seleccionar un usuario",
+    "userPlaceHolderFilter": "Buscar por usuario",
+    "roleUser": "Usuario de rol",
+    "tabPan": "Usuario de rol",
+    "header": "Lista de usuarios de rol",
+    "deleteRoleUserConfirmationMessage": "¿Estás seguro de que quieres eliminar el usuario de rol",
+    "deleteRoleUsersConfirmationMessage": "¿Estás seguro de que quieres eliminar los elementos seleccionados?"
+},
+"user": {
+    "credentialsNonExpired": "Credenciales no expiradas",
+    "enabled": "Habilitado",
+    "email": "Correo electrónico",
+    "accountNonExpired": "Cuenta no expirada",
+    "accountNonLocked": "Cuenta no bloqueada",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "passwordChanged": "Contraseña cambiada",
+    "modelPermissionUsers": "Usuarios de permiso de modelo",
+    "roleUsers": "Usuarios de rol",
+    "RoleUsersPlaceHolder": "Seleccionar múltiples roles",
+    "user": "Usuario",
+    "tabPan": "Usuario",
+    "header": "Lista de usuarios",
+    "deleteUserConfirmationMessage": "¿Estás seguro de que quieres eliminar el usuario",
+    "deleteUsersConfirmationMessage": "¿Estás seguro de que quieres eliminar los elementos seleccionados?"
+},
+"modelPermission": {
+    "reference": "Referencia",
+    "libelle": "Etiqueta",
+    "modelPermission": "Permiso de modelo",
+    "tabPan": "Permiso de modelo",
+    "header": "Lista de permisos de modelo",
+    "deleteModelPermissionConfirmationMessage": "¿Estás seguro de que quieres eliminar el permiso de modelo",
+    "deleteModelPermissionsConfirmationMessage": "¿Estás seguro de que quieres eliminar los elementos seleccionados?"
+},
+
+
+
+    "comptable":{
+        "cin": "Cin",
+        "prenom": "Prenom",
+        "nom": "Nom",
+        "email": "Email",
+        "categorieComptable": "Categorie comptable",
+        "comptable": "Comptable",
+        "tabPan": "Comptable",
+        "header": "Liste des comptables",
+        "deleteComptableConfirmationMessage": "Are you sure you want to delete comptable",
+        "deleteComptablesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "societe":{
+        "code": "Code",
+        "ice": "Ice",
+        "rc": "Rc",
+        "societe": "Societe",
+        "tabPan": "Societe",
+        "header": "Liste des societes",
+        "deleteSocieteConfirmationMessage": "Are you sure you want to delete societe",
+        "deleteSocietesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "demande":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "dateDemande": "Date demande",
+        "dateDemandeMin": "Date demande Min",
+        "dateDemandeMax": "Date demande Max",
+        "dateExigibilite": "Date exigibilite",
+        "dateExigibiliteMin": "Date exigibilite Min",
+        "dateExigibiliteMax": "Date exigibilite Max",
+        "societe": "Societe",
+        "societePlaceHolder": "Select a Societe",
+        "societePlaceHolderFilter": "Search by Societe",
+        "typeDemande": "Type demande",
+        "etatDemande": "Etat demande",
+        "dateValidation": "Date validation",
+        "dateValidationMin": "Date validation Min",
+        "dateValidationMax": "Date validation Max",
+        "dateTraitement": "Date traitement",
+        "dateTraitementMin": "Date traitement Min",
+        "dateTraitementMax": "Date traitement Max",
+        "comptableTraitant": "Comptable traitant",
+        "comptableTraitantPlaceHolder": "Select a Comptable traitant",
+        "comptableTraitantPlaceHolderFilter": "Search by Comptable traitant",
+        "comptableValidateur": "Comptable validateur",
+        "comptableValidateurPlaceHolder": "Select a Comptable validateur",
+        "comptableValidateurPlaceHolderFilter": "Search by Comptable validateur",
+        "demande": "Demande",
+        "tabPan": "Demande",
+        "header": "Liste des demandes",
+        "deleteDemandeConfirmationMessage": "Are you sure you want to delete demande",
+        "deleteDemandesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+
+    "paiementDemande":{
+        "code": "Code",
+        "libelle": "Libelle",
+        "paiementDemande": "Paiement demande",
+        "tabPan": "Paiement demande",
+        "header": "Liste des paiement demandes",
+        "deletePaiementDemandeConfirmationMessage": "Are you sure you want to delete paiement demande",
+        "deletePaiementDemandesConfirmationMessage": "Are you sure you want to delete the selected elements"
+    },
+
+"appName": "GED"
+}
+
+
