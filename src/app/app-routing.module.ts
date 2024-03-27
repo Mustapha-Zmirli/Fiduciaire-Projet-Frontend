@@ -6,11 +6,23 @@ import {AppLayoutComponent} from "src/app/layout/app.layout.component";
 
 import {LoginAdminComponent} from 'src/app/module/admin/login-admin/login-admin.component';
 import {RegisterAdminComponent} from 'src/app/module/admin/register-admin/register-admin.component';
+import {AcceuilComponent} from "./module/admin/view/acceuil/acceuil.component";
+import {ServsComponent} from "./module/admin/view/servs/servs.component";
+import {ClientsComponent} from "./module/admin/view/clients/clients.component";
+import {ContactComponent} from "./module/admin/view/contact/contact.component";
+import {DevisComponent} from "./module/admin/view/devis/devis.component";
+import {AgenceComponent} from "./module/admin/view/agence/agence.component";
 @NgModule({
     imports: [
         RouterModule.forRoot(
             [
-                {path: '', component: LoginAdminComponent},
+                {path: '', component: AcceuilComponent},
+                {path: 'acceuil', component: AcceuilComponent},
+                {path: 'servs', component: ServsComponent},
+                {path: 'clients', component: ClientsComponent},
+                {path: 'contact', component: ContactComponent},
+                {path: 'agence', component: AgenceComponent},
+                {path: 'devis', component: DevisComponent},
             {path: 'admin/login', component: LoginAdminComponent },
             {path: 'admin/register', component: RegisterAdminComponent },
             {

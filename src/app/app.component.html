@@ -1,1 +1,207 @@
-<router-outlet></router-outlet>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/acceuil">ACCEUIL</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/servs">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/clients">CLIENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/agence">AGENCE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/contact">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" routerLink="/devis">DEVIS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<router-outlet>
+
+</router-outlet>
+<footer class="container-fluid bg-grey py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="logo-part">
+                            <img src="https://i.ibb.co/sHZz13b/logo.png" class="w-50 logo-footer">
+                            <p>Marrakech Gueliz, NY 1001</p>
+                            <p>Utilisez cet outil comme données de test</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-4">
+                        <h6>À propos de l'entreprise</h6>
+                        <p>Mais les lignes horizontales ne peuvent être qu'un pixel de hauteur.</p>
+                        <a routerLink="/apropos" class="btn-footer">Plus d'infos</a><br>
+                        <a routerLink="/contact" class="btn-footer">Contactez-nous</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6 px-4">
+                        <h6>Aidez-nous</h6>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li><a routerLink="/acceuil">Accueil</a></li>
+                                    <li><a routerLink="/services">Services</a></li>
+                                    <li><a routerLink="/clients">Clients</a></li>
+                                    <li><a routerLink="/agence">Agence</a></li>
+                                    <li><a routerLink="/contact">Contact</a></li>
+                                    <li><a routerLink="/devis">Devis</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 px-4">
+                                <ul>
+                                    <li><a href="#">Facilité de taxi</a></li>
+                                    <li><a href="#">Fax</a></li>
+                                    <li><a href="#">Conditions</a></li>
+                                    <li><a href="#">Politique</a></li>
+                                    <li><a href="#">Remboursements</a></li>
+                                    <li><a href="#">Paypal</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Bulletin d'information</h6>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                        <form class="form-footer my-3">
+                            <input type="text" placeholder="recherche ici...." name="search">
+                            <input type="button" value="Aller">
+                        </form>
+                        <p>Il s'agit de la limitation technologique des moniteurs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+</footer>
+
+
+
+<style>
+        body {
+            font-family: 'Signika', sans-serif;
+        }
+        .bg-grey {
+            background: #292929;
+        }
+        .logo-footer {
+            margin-bottom: 40px;
+        }
+        footer {
+            color: grey;
+        }
+        footer p, a {
+            font-size: 12px;
+            font-family: 'Roboto', sans-serif;
+        }
+        footer h6 {
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        footer h6:after {
+            position: absolute;
+            content: "";
+            background: grey;
+            width: 12%;
+            height: 1px;
+            left: 0;
+            bottom: -20px;
+        }
+        .btn-footer {
+            color: grey;
+
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 43px;
+            font-size: 13px;
+            padding: 7px 30px;
+            line-height: 47px;
+        }
+        .bg-grey {
+            background: #fff; /* Changement de la couleur de fond en blanc */
+        }
+
+        footer {
+            color: #000; /* Changement de la couleur du texte en noir */
+        }
+        .btn-footer:hover {
+
+            text-decoration: none;
+
+        }
+        .form-footer input[type="text"] {
+            border: none;
+            border-radius: 16px 0 0 16px;
+            outline: none;
+            padding-left: 10px;
+
+        }
+        ::placeholder {
+            font-size: 10px;
+            padding-left: 10px;
+            font-style: italic;
+        }
+        .form-footer input[type="button"] {
+            border: none;
+            background:#232323;
+            margin-left: -5px;
+            color: #fff;
+            outline: none;
+            border-radius: 0 16px 16px 0;
+            padding: 2px 12px;
+        }
+        .social .fa {
+            color: grey;
+            font-size: 22px;
+            padding: 10px 15px;
+            background: #3c3c3c;
+        }
+        footer ul li {
+            list-style: none;
+            display: block;
+        }
+        footer ul  {
+            padding-left: 0;
+        }
+        footer ul  li a{
+            text-decoration: none;
+            color: grey;
+            text-decoration:none;
+        }
+        a:hover {
+            text-decoration: none;
+            color: #f5f5f5 !important;
+
+        }
+        .logo-part {
+            border-right: 1px solid grey;
+            height: 100%;
+        }
+</style>
