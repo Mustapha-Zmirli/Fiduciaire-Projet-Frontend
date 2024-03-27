@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap Form</title>
+
+</head>
+<body>
+<h3 class="form-la"> DEMANDER UN DEVIS EN LIGNE </h3>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Panneau noir à gauche avec le texte "Devis bienvenu" -->
+            <div class="black-panel text-center">
+                <img class="im" src="assets/images/image.jpg" alt="Image de devis en ligne">
+            </div>
+        </div>
+    </div>
+    <h6 class="para">Un projet en tête, besoin d'un devis? </h6>
+    <p class="p">Nous vous accompagnons dans votre transformation digitale depuis 20 ans.<br>Une équipe de passionné à la pointe des technologies web vous répond rapidement!. </p>
+    <p class="pe">Remplissez le formulaire et recevez votre devis </p>
+
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-6">
+            <!-- Formulaire -->
+            <div class="custom-form-container">
+                <form>
+                    <div class="mb-3">
+                        <label for="nom" class="form-label">Votre nom</label>
+                        <input type="text" class="form-control" id="nom">
+                    </div>
+                    <div class="mb-3">
+                        <label for="prenom" class="form-label">Votre prénom</label>
+                        <input type="text" class="form-control" id="prenom">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Votre email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="entreprise" class="form-label">Nom de votre entreprise</label>
+                        <input type="text" class="form-control" id="entreprise">
+                    </div>
+                    <div class="mb-3">
+                        <label for="telephone" class="form-label">Téléphone</label>
+                        <input type="tel" class="form-control" id="telephone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="code_postal" class="form-label">Code postal</label>
+                        <input type="text" class="form-control" id="code_postal">
+                    </div>
+                    <div class="mb-3">
+                        <label for="projet" class="form-label">Type de votre projet</label>
+                        <select class="form-control" id="projet">
+                            <option value="site_web">Site Web</option>
+                            <option value="application_mobile">Application Mobile</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mt-3">Soumettre</button>
+                </form>
+            </div>
+
+            <!-- Boutons radio pour le budget -->
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-8 custom-form-container">
+                    <div class="mb-3">
+                        <label for="budget1" class="form-label">Quel est votre budget ?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="budget" id="budget1" value="5.000€ - 10.000€">
+                            <label class="form-check-label" for="budget1">5.000€ - 10.000€</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="budget" id="budget2" value="10.000€ - 15.000€">
+                            <label class="form-check-label" for="budget2">10.000€ - 15.000€</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="budget" id="budget3" value="15.000€ - 20.000€">
+                            <label class="form-check-label" for="budget3">15.000€ - 20.000€</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="budget" id="budget4" value="> 20.000€">
+                            <label class="form-check-label" for="budget4">> 20.000€</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Textarea pour les commentaires avec bouton Envoyer -->
+            <div class="custom-form-container mt-3">
+                <div class="mb-4 send-button-container">
+                    <label for="commentaires" class="form-label">Informations Complémentaires:</label>
+                    <textarea class="form-control" id="commentaires" rows="3"></textarea>
+                    <button type="submit" class="btn btn-primary btn-block mt-3">Envoyer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

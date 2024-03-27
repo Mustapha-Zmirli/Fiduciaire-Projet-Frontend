@@ -1,0 +1,101 @@
+/* Adjust the height of carousel images */
+.carousel-item img {
+    height: 600px; /* Adjust the height as needed */
+}
+
+/* Center carousel indicators */
+.carousel-indicators {
+    bottom: 20px;
+}
+
+/* Style active indicator */
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+
+/* Style carousel captions */
+.carousel-caption {
+    color: #030303;
+    padding: 0;
+    border-radius: 10px;
+    position: absolute;
+    top: 0; /* Position at the top */
+    left: 0;
+    right: 0;
+}
+
+/* Style carousel captions on larger screens */
+@media (min-width: 768px) {
+    .carousel-caption {
+        width: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px; /* Adjust top position */
+    }
+}
+
+/* Style carousel caption headings */
+.carousel-caption h5 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #e00000;
+}
+
+/* Style carousel controls */
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(0, 58, 128, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Style carousel control icons */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #ffffff;
+}
+
+/* Adjust position of carousel controls */
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+.card-title {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the title bold */
+    color: #003a69; /* Set the text color */
+    margin-bottom: 10px; /* Add some bottom margin */
+}
+
+.card-text {
+    font-size: 1rem; /* Adjust the font size as needed */
+    line-height: 1.5; /* Set the line height for better readability */
+    color: #4d4d4d; /* Set the text color */
+    font-family: "Arial", "Courier New", monospace;
+}
+.card {
+    border: none; /* Remove the border */
+    box-shadow: none; /* Optionally remove the shadow */
+}
+.colored-word {
+    color: #005aa1; /* Or any other color you prefer */
+    font-size: larger;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2c2b2b; /* Change the color as needed */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card.mb-4 {
+    border: none; /* Make the border invisible */
+    box-shadow: none; /* Remove any box shadow */
+}
+
+

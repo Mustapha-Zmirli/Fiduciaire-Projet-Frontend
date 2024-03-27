@@ -38,12 +38,24 @@ import { DemandeAdminRoutingModule } from './view/demande/demande-admin-routing.
 
 import {SecurityModule} from 'src/app/module/security/security.module';
 import {SecurityRoutingModule} from 'src/app/module/security/security-routing.module';
+import { AcceuilComponent } from './view/acceuil/acceuil.component';
+import { ServsComponent } from './view/servs/servs.component';
+import { ClientsComponent } from './view/clients/clients.component';
+import { ContactComponent } from './view/contact/contact.component';
+import { AgenceComponent } from './view/agence/agence.component';
+import { DevisComponent } from './view/devis/devis.component';
 
 
 @NgModule({
   declarations: [
    LoginAdminComponent,
-   RegisterAdminComponent
+   RegisterAdminComponent,
+   AcceuilComponent,
+   ServsComponent,
+   ClientsComponent,
+   ContactComponent,
+   AgenceComponent,
+   DevisComponent
   ],
   imports: [
     CommonModule,

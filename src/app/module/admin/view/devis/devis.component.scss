@@ -1,0 +1,62 @@
+    /* Style pour le panneau noir à gauche */
+
+
+    /* Ajouter du style personnalisé pour positionner le formulaire */
+.custom-form-container {
+    margin-top: 20px;
+    background-color: white; /* Couleur de fond du conteneur */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    overflow-y: auto; /* Ajouter une barre de défilement si nécessaire */
+}
+
+/* Modifier la couleur des étiquettes */
+.form-label {
+    color: black; /* Changer la couleur en noir */
+    font-family: "Arial Black";
+}
+
+/* Modifier la couleur du bouton */
+.btn-primary {
+    background-color: black;
+    border-color: black;
+}
+
+.im {
+    margin-left: 100px
+;
+}
+.form-la {
+    color: black;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: "Lucida Handwriting";
+
+}
+.para {
+    color: black;
+    margin-left: 550px;
+    margin-top: 30px;
+    font-family:"Arial black";
+
+;
+}
+.p {
+    color: black;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-family:"Arial black";
+
+;
+}
+.pe {
+    color: black;
+    margin-left: 550px;
+    margin-top: 20px;
+    font-family:"Arial black";
+
+;
+}
