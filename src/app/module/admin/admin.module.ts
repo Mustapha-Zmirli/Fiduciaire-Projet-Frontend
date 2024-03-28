@@ -44,6 +44,9 @@ import { ClientsComponent } from './view/clients/clients.component';
 import { ContactComponent } from './view/contact/contact.component';
 import { AgenceComponent } from './view/agence/agence.component';
 import { DevisComponent } from './view/devis/devis.component';
+import { CardComponent } from './view/acceuil/card/card.component';
+import { CarouselComponent } from './view/acceuil/carousel/carousel.component';
+import { AboutComponent } from './view/acceuil/about/about.component';
 
 
 @NgModule({
@@ -55,7 +58,10 @@ import { DevisComponent } from './view/devis/devis.component';
    ClientsComponent,
    ContactComponent,
    AgenceComponent,
-   DevisComponent
+   DevisComponent,
+   CardComponent,
+   CarouselComponent,
+   AboutComponent
   ],
   imports: [
     CommonModule,
